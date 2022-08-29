@@ -1,0 +1,10 @@
+{
+    // config related to code formatting
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.tslint": true,
+        "source.organizeImports": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "cSpell.enabled": false,
+}
