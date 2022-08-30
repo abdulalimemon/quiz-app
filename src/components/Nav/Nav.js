@@ -10,7 +10,7 @@ const Nav = () => {
                     <li>
                         <a href="/" className='flex flex-row items-center'>
                             <img className='w-10 h-10 mr-3' src={logo} alt="Quiz App" />
-                            <h3>Quiz App</h3>
+                            <h3 className='font-semibold'>Quiz App</h3>
                         </a>
                     </li>
                 </ul>
