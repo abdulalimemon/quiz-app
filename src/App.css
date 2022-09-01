@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
   --bodyBackground: #f2f4f8;
@@ -15,16 +15,11 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--fontPrimary);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   background-color: var(--bodyBackground);
-}
-
-a {
-  text-decoration: none;
-  color: blue;
 }
 
 h4 {
@@ -47,17 +42,5 @@ h4 {
   border-radius: 8px;
   display: flex;
   align-items: center;
-}
-
-.column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-@media only screen and (max-width: 1023px) {
-  .column {
-    grid-template-columns: 1fr;
-  }
 }
 
