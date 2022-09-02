@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import avatar from '../../assets/images/login.gif';
 
 const SignUp = () => {
@@ -10,40 +11,43 @@ const SignUp = () => {
                     <div className="flex justify-center">
                         <img className='px-5' src={avatar} alt='Sign up' />
                     </div>
-                    <form className="flex justify-start content-center" action="#">
-                        <div className="textInput">
-                            <input type="text" placeholder="Enter name" />
-                            <span className="material-icons-outlined"> person </span>
-                        </div>
+                    <div className='flex justify-center items-center'>
+                        <form className="gap-5 grid grid-cols-1 mx-auto px-5 md:m-0 md:pr-10 w-full" action="#">
+                            <div className="w-full h-12 flex items-center border p-1 rounded-md border-slate-500 bg-white">
+                                <input type="text" className='border-none outline-none	w-full h-full py-1 px-2 font-semibold' placeholder="Enter name" />
+                                <span className="material-icons-outlined w-10 h-10 flex items-center justify-center"> person </span>
+                            </div>
 
-                        <div className="textInput">
-                            <input type="text" placeholder="Enter email" />
-                            <span className="material-icons-outlined"> alternate_email </span>
-                        </div>
+                            <div className="w-full h-12 flex items-center border p-1 rounded-md border-slate-500 bg-white">
+                                <input className='border-none outline-none	w-full h-full py-1 px-2 font-semibold' type="text" placeholder="Enter email" />
+                                <span className="material-icons-outlined w-10 h-10 flex items-center justify-center"> alternate_email </span>
+                            </div>
 
-                        <div className="textInput">
-                            <input type="password" placeholder="Enter password" />
-                            <span className="material-icons-outlined"> lock </span>
-                        </div>
+                            <div className="w-full h-12 flex items-center border p-1 rounded-md border-slate-500 bg-white">
+                                <input className='border-none outline-none	w-full h-full py-1 px-2 font-semibold' type="password" placeholder="Enter password" />
+                                <span className="material-icons-outlined w-10 h-10 flex items-center justify-center"> lock </span>
+                            </div>
 
-                        <div className="textInput">
-                            <input type="password" placeholder="Confirm password" />
-                            <span className="material-icons-outlined"> lock_clock </span>
-                        </div>
+                            <div className="w-full h-12 flex items-center border p-1 rounded-md border-slate-500 bg-white">
+                                <input className='border-none outline-none	w-full h-full py-1 px-2 font-semibold' type="password" placeholder="Confirm password" />
+                                <span className="material-icons-outlined w-10 h-10 flex items-center justify-center"> lock_clock </span>
+                            </div>
 
-                        <label>
-                            <input type="checkbox" />
-                            <span>I agree to the Terms & Conditions</span>
-                        </label>
+                            <label>
+                                <input className='mr-3' type="checkbox" />
+                                <span>I agree to the Terms & Conditions</span>
+                            </label>
 
-                        <div className="button">
-                            <span>Submit now</span>
-                        </div>
+                            <button className='w-full h-12 p-1'>
+                                <span className="w-full h-12 rounded-md flex items-center justify-center cursor-pointer bg-green-400  hover:bg-slate-800 font-semibold hover:text-slate-100">Submit now</span>
+                            </button>
 
-                        <div className="info">
-                            Already have an account? <a href="login.html">Login</a> instead.
-                        </div>
-                    </form>
+                            <div>
+                                <p>Already have an account? <Link to="/login" className='text-red-500'>Login</Link> instead.</p>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
