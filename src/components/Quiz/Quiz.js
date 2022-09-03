@@ -11,9 +11,9 @@ const Quiz = () => {
                 <h4 className='font-semibold text-base text-gray-400 py-2 border-b-2'>Question can have multiple answers</h4>
 
                 <Options></Options>
+                <div className='py-5 md:py-7 lg:py-10'></div>
                 <ProgressBar></ProgressBar>
-                <MiniPlayer></MiniPlayer>
-
+                
             </div>
         </main>
     );

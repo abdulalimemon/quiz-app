@@ -7,6 +7,7 @@ import SignUp from './components/Login/SignUp';
 import ResetPassword from './components/Login/ResetPassword';
 import Nav from './components/Nav/Nav';
 import Quiz from './components/Quiz/Quiz';
+import Results from './components/Result/Results';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/resetpassword' element={<ResetPassword></ResetPassword>}></Route>
         <Route path='/quiz' element={<Quiz></Quiz>}></Route>
+        <Route path='/result' element={<Results></Results>}></Route>
         {/* <Route path='/' element={}></Route> */}
       </Routes>
       <Footer></Footer>
