@@ -1,5 +1,5 @@
 import React from 'react';
-import Success from '../../assets/images/success.png';
+import Success from '../../assets/images/Success.png';
 
 const Summary = () => {
     return (

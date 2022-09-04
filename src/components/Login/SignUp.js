@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import avatar from '../../assets/images/login.gif';
+import avatar from '../../assets/images/Sign-up.png';
 
 const SignUp = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../assets/images/login.gif';
+import avatar from '../../assets/images/reset-password.png';
 
 const ResetPassword = () => {
     return (
