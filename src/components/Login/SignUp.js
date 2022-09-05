@@ -45,7 +45,21 @@ const SignUp = () => {
                             <div>
                                 <p>Already have an account? <Link to="/login" className='text-red-500'>Login</Link> instead.</p>
                             </div>
-
+                            <div className='my-2'>
+                                <div className='flex items-center justify-center' >
+                                    <div className='border-b-2 w-1/4 lg:w-1/3 border-slate-300'></div>
+                                    <div className='w-1/2 lg:w-1/3 flex justify-center font-medium'>Or Sign up With</div>
+                                    <div className='border-b-2 w-1/4 lg:w-1/3 border-slate-300'></div>
+                                </div>
+                                <div className='my-2 flex'>
+                                    <button className='w-full h-12 p-1'>
+                                        <span className="w-full h-12 rounded-md flex items-center justify-center cursor-pointer bg-green-400  hover:bg-slate-800 font-semibold hover:text-slate-100">Submit now</span>
+                                    </button>
+                                    <button className='w-full h-12 p-1'>
+                                        <span className="w-full h-12 rounded-md flex items-center justify-center cursor-pointer bg-green-400  hover:bg-slate-800 font-semibold hover:text-slate-100">Submit now</span>
+                                    </button>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
