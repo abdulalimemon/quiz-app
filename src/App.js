@@ -8,6 +8,7 @@ import ResetPassword from './components/Login/ResetPassword';
 import Nav from './components/Nav/Nav';
 import Quiz from './components/Quiz/Quiz';
 import Results from './components/Result/Results';
+import Loading from './components/Loading/Loading';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/resetpassword' element={<ResetPassword></ResetPassword>}></Route>
         <Route path='/quiz' element={<Quiz></Quiz>}></Route>
         <Route path='/result' element={<Results></Results>}></Route>
+        <Route path='/load' element={<Loading></Loading>}></Route>
         {/* <Route path='/' element={}></Route> */}
       </Routes>
       <Footer></Footer>
