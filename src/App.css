@@ -22,7 +22,6 @@ body {
   background-color: var(--bodyBackground);
 }
 
-.login-button-text:hover{
-  color: #e4e8ee;
+.loading-height{
+  height: 45vh;
 }
-
